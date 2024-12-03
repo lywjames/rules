@@ -38,8 +38,10 @@ http-response ^https?:\/\/user\.(aliyundrive|alipan)\.com\/v2\/user\/get script-
 http-response ^https?:\/\/member\.(aliyundrive|alipan)\.com\/v2\/activity\/sign_in_info script-path=https://gist.githubusercontent.com/ddgksf2013/f4752e632fd3375ea2811985c5b635dc/raw/alicloud.js, requires-body=true, timeout=60, tag=alicloud
 
 
-# https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js
-http-response https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js, requires-body=true, timeout=60, tag=BaiduCloud
+# 先注释掉 https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js
+# http-response https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js, requires-body=true, timeout=60, tag=BaiduCloud
+# 百度网盘wei
+http-response ^https?:\/\/pan.baidu.com.+(rest\/.+\/membership\/user|api\/user\/getinfo|act\/v2\/welfare\/list|api\/taskscore\/tasklist)\? script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/panda.js, requires-body=true, timeout=60, tag=panda
 
 
 http-response https://xluser-ssl.xunlei.com/xluser.core.login/v3/getuserinfo script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/xunlei.js, requires-body=true, timeout=60, tag=xunlei
