@@ -4,10 +4,6 @@
 
 [Rewrite]
 
-# > 咪咕广告
-^https://.*miguvideo\.com/request/sdk - reject-200
-^https://common-sc\.miguvideo\.com/task/v7/task-list/cmvideo/visitor - reject-200
-^https?://mobile.da.mgtv.com\/m\/page - reject
 
 ^https:\/\/spclient\.wg\.spotify\.com\/user-customization-service\/v1\/customize$ header-del if-none-match
 
@@ -64,10 +60,6 @@ http-response https://miniapp.guniuniu.com/api/app/user$ script-path=https://raw
 # 养基宝
 http-response ^https?:\/\/.*yangjibao\.com\/(wxapi\/)?account script-path=https://github.com/ddgksf2013/MoYu/raw/master/YangJiBaoProCrack.js, requires-body=true, timeout=60, tag=YangJiBaoProCrack
 
-# > 咪咕视频Vip会员
-http-response ^https?:\/\/(play|dis).*miguvideo.com\/(play|dis)(url|play)\/.*$ script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/mgsp.js, requires-body=true, timeout=60, tag=mgsp
-
-http-request ^https?:\/\/play.miguvideo.com\/playurl\/v1\/play\/playurl\?2Kvivid=true?.*=true$ script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/mgspck.js, timeout=60, tag=mgspck
 
 # > 芒果TV,Vip+会员画质+去广告,页面优化
 http-response ^https?:\/\/.*mgtv.com.*(GetUserInfo|module\/list\?_support|app\/bdboot|pullReleaseInfo|floor\/detail|video\/source|entry\?_support).*$ script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/mgtv.js, requires-body=true, timeout=60, tag=mgtv
@@ -77,4 +69,4 @@ http-request ^https?:\/\/mobile-stream\.api\.mgtv\.com\/v1\/video\/source\? scri
 
 
 [mitm]
-hostname = www.google.com*,spclient.wg.spotify.com, *.xiuxiu.meitu.com, api.posters.meitu.com, api-sub.meitu.com, *.camscanner.com, *.intsig.net, api.alipan.com, member.aliyundrive.com, member.alipan.com, api.aliyundrive.com, pan.baidu.com, afd.baidu.com, xluser-ssl.xunlei.com, accounts.felo.me, translator.felo.me, baimiao.uzero.cn, zimu.yunmiaomiao.cn, miniapp.guniuniu.com, *.yangjibao.com, *.miguvideo.com,  *mgtv.com, pad.api.mgtv.com, pcc.api.mgtv.com
+hostname = www.google.com*,spclient.wg.spotify.com, *.xiuxiu.meitu.com, api.posters.meitu.com, api-sub.meitu.com, *.camscanner.com, *.intsig.net, api.alipan.com, member.aliyundrive.com, member.alipan.com, api.aliyundrive.com, pan.baidu.com, afd.baidu.com, xluser-ssl.xunlei.com, accounts.felo.me, translator.felo.me, baimiao.uzero.cn, zimu.yunmiaomiao.cn, miniapp.guniuniu.com, *.yangjibao.com, *mgtv.com
