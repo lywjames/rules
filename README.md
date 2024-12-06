@@ -36,6 +36,9 @@
 
 ## 鸣谢
 > 排名不分先后
+[@wzt](https://github.com/wztt7/rules)
+[@luestr](https://github.com/luestr/ShuntRules/blob/main/README.md)
+[@luestrloon](https://github.com/luestr/ProxyResource)
 [@app2smile](https://github.com/app2smile)
 [@ddgksf2013](https://github.com/ddgksf2013)
 [@DualSubs](https://github.com/DualSubs)
