@@ -6,7 +6,7 @@
 | :-----| :---- |
 |QuantumultX|  [Quantumult.conf](https://raw.githubusercontent.com/lywjames/rules/main/QuantumultX/Quantumult.conf) |
 |Shadowrocket|  [Shadowrocket.conf](https://raw.githubusercontent.com/lywjames/rules/main/Shadowrocket/Shadowrocket.conf) |
-|Loon|  [Loon.conf](https://raw.githubusercontent.com/lywjames/rules/main/Loon/loon.conf) |
+|Loon|  [Loon.conf](https://raw.githubusercontent.com/lywjames/rules/main/Loon/Loon.conf) |
 
 
 * 重写规则转换： [Script Hub](https://scripthub.vercel.app/)
