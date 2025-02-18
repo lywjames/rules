@@ -46,10 +46,12 @@ http-response ^https?:\/\/pan.baidu.com.+(rest\/.+\/membership\/user|api\/user\/
 
 http-response https://xluser-ssl.xunlei.com/xluser.core.login/v3/getuserinfo script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/xunlei.js, requires-body=true, timeout=60, tag=xunlei
 
-# https://github.com/WeiGiegie/666/blob/main/felo.js
-http-response ^https?:\/\/(translator|accounts).felo.me\/api\/user.*$ script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/felo.js, requires-body=true, timeout=60, tag=felo
+# https://raw.githubusercontent.com/Yu9191/Rewrite/main/Felo.js
+http-response ^https?:\/\/(translator|accounts).felo.me\/api\/user.*$ script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/felo.js, requires-body=true, timeout=60, tag=felo
 
-http-request ^https?:\/\/translator.felo.me\/api\/translation\/thirdToken\?token_channel script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/felotk.js, timeout=60, tag=felotk
+http-request ^https?:\/\/translator.felo.me\/api\/translation\/thirdToken script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/felock.js, timeout=60, tag=felock
+
+
 
 http-response ^https?:\/\/baimiao\.uzero\.cn\/api\/.+\/(appLaunchWithUser|getAnnouncement|checkLoginClient) script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/baimiao.js, requires-body=true, timeout=60, tag=baimiao
 
@@ -68,8 +70,8 @@ http-response ^https?:\/\/.*mgtv.com.*(GetUserInfo|module\/list\?_support|app\/b
 
 http-request ^https?:\/\/mobile-stream\.api\.mgtv\.com\/v1\/video\/source\? script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/mgtk.js, timeout=60, tag=mgtk
 
-# >金牌翻译官 恢复购买  mv-ps.xdplt.com
-http-response ^https?:\/\/mv-ps.xdplt.com\/api\/v1\/(user|payment\/apple\/pay\/verify)\/info script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/jpfyg.js, requires-body=true, timeout=60, tag=jpfyg
+
+
 
 [mitm]
-hostname = www.google.com*,spclient.wg.spotify.com, *.xiuxiu.meitu.com, api.posters.meitu.com, api-sub.meitu.com, *.camscanner.com, *.intsig.net, api.alipan.com, member.aliyundrive.com, member.alipan.com, api.aliyundrive.com, pan.baidu.com, xluser-ssl.xunlei.com, accounts.felo.me, translator.felo.me, baimiao.uzero.cn, zimu.yunmiaomiao.cn, miniapp.guniuniu.com, *.yangjibao.com, *mgtv.com, mv-ps.xdplt.com
+hostname = www.google.com*,spclient.wg.spotify.com, *.xiuxiu.meitu.com, api.posters.meitu.com, api-sub.meitu.com, *.camscanner.com, *.intsig.net, api.alipan.com, member.aliyundrive.com, member.alipan.com, api.aliyundrive.com, pan.baidu.com, xluser-ssl.xunlei.com, accounts.felo.me, translator.felo.me, baimiao.uzero.cn, zimu.yunmiaomiao.cn, miniapp.guniuniu.com, *.yangjibao.com, *mgtv.com
