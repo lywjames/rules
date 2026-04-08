@@ -83,13 +83,12 @@ https://kelee.one/Tool/Loon/Lsr/REGION_SPLITTER, policy=DIRECT, tag=CN REGION, e
 [Script]
 
 [Plugin]
-https://kelee.one/Tool/Loon/Lpx/LoonGallery.lpx, policy=🚀 策略选择, enabled=true
-https://kelee.one/Tool/Loon/Lpx/Block_HTTPDNS.lpx, enabled=true
-https://kelee.one/Tool/Loon/Lpx/BlockAdvertisers.lpx, enabled=true
-https://kelee.one/Tool/Loon/Lpx/Remove_ads_by_keli.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Block_HTTPDNS.lpx, pin=true, enabled=true
+https://kelee.one/Tool/Loon/Lpx/BlockAdvertisers.lpx, pin=true, enabled=true
 https://kelee.one/Tool/Loon/Lpx/QuickSearch.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/Prevent_DNS_Leaks.lpx, policy=🚀 策略选择, enabled=true
 https://kelee.one/Tool/Loon/Lpx/Node_detection_tool.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/TestFlightRegionUnlock.lpx, policy=DIRECT, enabled=false
 https://kelee.one/Tool/Loon/Lpx/BoxJs.lpx, policy=🚀 策略选择, enabled=true
 https://kelee.one/Tool/Loon/Lpx/Sub-Store.lpx, policy=🚀 策略选择, enabled=true
 https://kelee.one/Tool/Loon/Lpx/Script-Hub.lpx, policy=🚀 策略选择, enabled=true
@@ -111,6 +110,7 @@ https://kelee.one/Tool/Loon/Lpx/BaiduNetDisk_remove_ads.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/Amap_remove_ads.lpx, enabled=false
 https://kelee.one/Tool/Loon/Lpx/AliYunDrive_remove_ads.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/iQiYi_Video_remove_ads.lpx, enabled=true
+https://yfamilys.com/plugin/fanqienovel.plugin, enabled=true
 https://kelee.one/Tool/Loon/Lpx/DragonRead_remove_ads.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/YouKu_Video_remove_ads.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/Tencent_Video_remove_ads.lpx, enabled=true
@@ -128,7 +128,6 @@ https://kelee.one/Tool/Loon/Lpx/MeituMYXJ_remove_ads.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/Umetrip_remove_ads.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/AppleWeatherEnhancer.lpx, enabled=true
 https://raw.githubusercontent.com/lywjames/rules/main/Loon/APP.plugin, enabled=true
-
 [Mitm]
 ca-p12 = 
 ca-passphrase = 
