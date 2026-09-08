@@ -1,0 +1,181 @@
+DOMAIN, api.statsig.com
+
+DOMAIN, browser-intake-datadoghq.com
+
+DOMAIN, static.cloudflareinsights.com
+
+DOMAIN-suffix, algolia.net
+
+DOMAIN-suffix, auth0.com
+
+DOMAIN-suffix, cloudflare.com
+
+DOMAIN-suffix, arkoselabs.com
+
+DOMAIN-suffix, statsigapi.net
+
+DOMAIN-suffix, featuregates.org
+
+DOMAIN-suffix, identrust.com
+
+DOMAIN-suffix, intercom.io
+
+DOMAIN-suffix, intercomcdn.com
+
+DOMAIN-suffix, launchdarkly.com
+
+DOMAIN-suffix, segment.io
+
+DOMAIN-suffix, amazonaws.com
+
+DOMAIN-suffix, wp.com
+
+DOMAIN-suffix, sentry.io
+
+DOMAIN-suffix, stripe.com
+
+DOMAIN, cdn.usefathom.com
+
+DOMAIN-suffix, anthropic.com
+
+DOMAIN-suffix, claude.ai
+
+DOMAIN-suffix, claude.com
+
+DOMAIN-suffix, claudeusercontent.com
+
+DOMAIN-suffix, cursor.sh
+
+DOMAIN-suffix, cursor.com
+
+DOMAIN-suffix, cursor-cdn.com
+
+DOMAIN-suffix, cursorapi.com
+
+DOMAIN-suffix, cursorvm.com
+
+DOMAIN-suffix, dify.ai
+
+DOMAIN, ai.google.dev
+
+DOMAIN, makersuite.google.com
+
+DOMAIN-suffix, gemini.google.com
+
+DOMAIN-suffix, apis.google.com
+
+DOMAIN-suffix, clients6.google.com
+
+DOMAIN-suffix, clients4.google.com
+
+DOMAIN-suffix, deepmind.com
+
+DOMAIN-suffix, deepmind.google
+
+DOMAIN-suffix, generativeai.google
+
+DOMAIN-suffix, colab.google.com
+
+DOMAIN-suffix, colab.research.google.com
+
+DOMAIN-suffix, developerprofiles.google.com
+
+DOMAIN-suffix, googleusercontent.com
+
+DOMAIN-suffix, googleapis.com
+
+DOMAIN-suffix, proactivebackend-pa.googleapis.com
+
+DOMAIN-suffix, grazie.ai
+
+DOMAIN-suffix, meta.ai
+
+DOMAIN-suffix, meta.com
+
+DOMAIN-suffix, notebooklm.google.com
+
+DOMAIN-suffix, notebooklm.google
+
+DOMAIN, api.msn.com
+
+DOMAIN, assets.msn.com
+
+DOMAIN, copilot.microsoft.com
+
+DOMAIN, gateway.bingviz.microsoft.net
+
+DOMAIN, gateway.bingviz.microsoftapp.net
+
+DOMAIN, in.appcenter.ms
+
+DOMAIN, location.microsoft.com
+
+DOMAIN, odc.officeapps.live.com
+
+DOMAIN, r.bing.com
+
+DOMAIN, self.events.data.microsoft.com
+
+DOMAIN, services.bingapis.com
+
+DOMAIN, sydney.bing.com
+
+DOMAIN, www.bing.com
+
+DOMAIN-suffix, api.microsoftapp.net
+
+DOMAIN-suffix, bing-shopping.microsoft-falcon.io
+
+DOMAIN-suffix, edgeservices.bing.com
+
+DOMAIN-suffix, midjourney.com
+
+DOMAIN, openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+
+DOMAIN, openaicomproductionae4b.blob.core.windows.net
+
+DOMAIN, production-openaicom-storage.azureedge.net
+
+DOMAIN-suffix, ai.com
+
+DOMAIN-suffix, chatgpt.com
+
+DOMAIN-suffix, livekit.cloud
+
+DOMAIN-suffix, oaistatic.com
+
+DOMAIN-suffix, oaiusercontent.com
+
+DOMAIN-suffix, openai.com
+
+DOMAIN-suffix, azureedge.net
+
+DOMAIN-suffix, imgix.net
+
+DOMAIN, pplx-res.cloudinary.com
+
+DOMAIN-suffix, perplexity.ai
+
+DOMAIN-suffix, pplx.ai
+
+DOMAIN-suffix, perplexity.com
+
+DOMAIN-suffix, poe.com
+
+DOMAIN-suffix, poecdn.net
+
+DOMAIN-suffix, x.ai
+
+DOMAIN-suffix, grok.com
+
+DOMAIN-suffix, mistral.ai
+
+DOMAIN-suffix, huggingface.co
+
+DOMAIN-suffix, hf.co
+
+DOMAIN-suffix, hf.space
+
+DOMAIN-suffix, manus.im
+
+DOMAIN-suffix, manuscdn.com
