@@ -137,5 +137,7 @@ https://kelee.one/Tool/Loon/Lpx/Umetrip_remove_ads.lpx, enabled=true
 https://github.com/NSRingo/WeatherKit/releases/latest/download/iRingo.WeatherKit.lpx, enabled=true
 
 [Mitm]
-hostname =
+hostname = pan.baidu.com,accounts.felo.me,translator.felo.me,52.78.154.178
+
+# felo hostname = accounts.felo.me, translator.felo.me, 52.78.154.178
 skip-server-cert-verify = false
